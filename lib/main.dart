@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:payflow/modules/login/LoginPage.dart';
+import 'package:payflow/modules/splash/splash_page.dart';
+import 'package:payflow/shared/themes/appcolors.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,9 +10,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primaryColor: AppColors.primary),
-      home: SplashPage(),
+      theme: ThemeData(primaryColor: AppColors.primary),
+      home: LoginPage(),
     );
   }
 }
