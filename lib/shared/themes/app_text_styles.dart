@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:payflow/shared/themes/appcolors.dart';
+
+import 'appcolors.dart';
 
 class AppTextStyles {
   static final titleHome = GoogleFonts.lexendDeca(
@@ -10,9 +11,10 @@ class AppTextStyles {
   );
   static final titleRegular = GoogleFonts.lexendDeca(
     fontSize: 20,
-    fontWeight: FontWeight.w400,
-    color: AppColors.heading,
+    fontWeight: FontWeight.w300,
+    color: AppColors.background,
   );
+
   static final titleBoldHeading = GoogleFonts.lexendDeca(
     fontSize: 20,
     fontWeight: FontWeight.w600,
@@ -69,41 +71,38 @@ class AppTextStyles {
     color: AppColors.heading,
   );
   static final buttonBoldGray = GoogleFonts.inter(
-    fontSize: 15,
-    fontWeight: FontWeight.w700,
-    color: AppColors.gray,
-  );
+      fontSize: 15, fontWeight: FontWeight.w700, color: AppColors.gray);
   static final buttonBoldBackground = GoogleFonts.inter(
     fontSize: 15,
     fontWeight: FontWeight.w700,
     color: AppColors.background,
   );
-  static final captionBackground = GoogleFonts.lexendDeca(
+  static final captionBackground = GoogleFonts.inter(
     fontSize: 13,
     fontWeight: FontWeight.w400,
     color: AppColors.background,
   );
-  static final captionShape = GoogleFonts.lexendDeca(
+  static final captionShape = GoogleFonts.inter(
     fontSize: 13,
     fontWeight: FontWeight.w400,
     color: AppColors.shape,
   );
-  static final captionBody = GoogleFonts.lexendDeca(
+  static final captionBody = GoogleFonts.inter(
     fontSize: 13,
     fontWeight: FontWeight.w400,
     color: AppColors.body,
   );
-  static final captionBoldBackground = GoogleFonts.lexendDeca(
+  static final captionBoldBackground = GoogleFonts.inter(
     fontSize: 13,
     fontWeight: FontWeight.w600,
     color: AppColors.background,
   );
-  static final captionBoldShape = GoogleFonts.lexendDeca(
+  static final captionBoldShape = GoogleFonts.inter(
     fontSize: 13,
     fontWeight: FontWeight.w600,
     color: AppColors.shape,
   );
-  static final captionBoldBody = GoogleFonts.lexendDeca(
+  static final captionBoldBody = GoogleFonts.inter(
     fontSize: 13,
     fontWeight: FontWeight.w600,
     color: AppColors.body,
